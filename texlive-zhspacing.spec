@@ -6,7 +6,7 @@
 # catalog-version 3.5
 Name:		texlive-zhspacing
 Version:	3.5
-Release:	1
+Release:	2
 Summary:	A simple solution for typesetting CJK documents in XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/zhspacing
