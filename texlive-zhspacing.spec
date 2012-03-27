@@ -1,13 +1,13 @@
-# revision 19473
+# revision 25644
 # category Package
 # catalog-ctan /macros/xetex/generic/zhspacing
-# catalog-date 2009-11-10 09:00:49 +0100
+# catalog-date 2012-03-14 18:58:06 +0100
 # catalog-license lppl
-# catalog-version 3.5
+# catalog-version 2012/03/14
 Name:		texlive-zhspacing
-Version:	3.5
-Release:	2
-Summary:	A simple solution for typesetting CJK documents in XeTeX
+Version:	20120314
+Release:	1
+Summary:	Spacing for mixed CJK-English documents in XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/zhspacing
 License:	LPPL
@@ -18,10 +18,12 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
-%define		_unpackaged_subdirs_terminate_build	0
-
 %description
-The package may be used by any document format under XeTeX.
+The package manages spacing in a CJK document; between
+consecutive Chinese letters, spaces are ignored, but a
+consistent space is inserted between Chinese text and English
+(or mathematics). The package may be used by any document
+format under XeTeX.
 
 %post
     %{_sbindir}/texlive.post
@@ -34,16 +36,16 @@ The package may be used by any document format under XeTeX.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/xetex/zhspacing/context/t-zhspacing.tex
+%{_texmfdistdir}/tex/xetex/zhspacing/generic/zhmath.sty
+%{_texmfdistdir}/tex/xetex/zhspacing/generic/zhsmyclass.sty
+%{_texmfdistdir}/tex/xetex/zhspacing/generic/zhspacing.sty
+%{_texmfdistdir}/tex/xetex/zhspacing/generic/zhsusefulmacros.sty
 %{_texmfdistdir}/tex/xetex/zhspacing/latex/zhfont.sty
 %{_texmfdistdir}/tex/xetex/zhspacing/latex/zhulem.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/plain/zhmath.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/plain/zhsmyclass.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/plain/zhspacing.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/plain/zhsusefulmacros.sty
 %doc %{_texmfdistdir}/doc/xetex/zhspacing/README
+%doc %{_texmfdistdir}/doc/xetex/zhspacing/test/zhspacing-context-test.tex
 %doc %{_texmfdistdir}/doc/xetex/zhspacing/zhs-man.pdf
 %doc %{_texmfdistdir}/doc/xetex/zhspacing/zhs-man.tex
-%doc %{_texmfdistdir}/doc/xetex/zhspacing/zhspacing-context-test.tex
 
 #-----------------------------------------------------------------------
 %prep
