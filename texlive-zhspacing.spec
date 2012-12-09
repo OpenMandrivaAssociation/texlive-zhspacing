@@ -56,3 +56,20 @@ format under XeTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120314-1
++ Revision: 787819
+- Update to latest release.
+
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.5-2
++ Revision: 757833
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.5-1
++ Revision: 719974
+- texlive-zhspacing
+- texlive-zhspacing
+- texlive-zhspacing
+
