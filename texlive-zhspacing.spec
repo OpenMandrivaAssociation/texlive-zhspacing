@@ -6,7 +6,7 @@
 # catalog-version 2012/03/14
 Name:		texlive-zhspacing
 Version:	20120314
-Release:	4
+Release:	5
 Summary:	Spacing for mixed CJK-English documents in XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/zhspacing
