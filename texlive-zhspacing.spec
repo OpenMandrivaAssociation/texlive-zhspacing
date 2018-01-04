@@ -35,17 +35,8 @@ format under XeTeX.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/xetex/zhspacing/context/t-zhspacing.tex
-%{_texmfdistdir}/tex/xetex/zhspacing/generic/zhmath.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/generic/zhsmyclass.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/generic/zhspacing.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/generic/zhsusefulmacros.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/latex/zhfont.sty
-%{_texmfdistdir}/tex/xetex/zhspacing/latex/zhulem.sty
-%doc %{_texmfdistdir}/doc/xetex/zhspacing/README
-%doc %{_texmfdistdir}/doc/xetex/zhspacing/test/zhspacing-context-test.tex
-%doc %{_texmfdistdir}/doc/xetex/zhspacing/zhs-man.pdf
-%doc %{_texmfdistdir}/doc/xetex/zhspacing/zhs-man.tex
+%{_texmfdistdir}/tex/xetex/zhspacing
+%doc %{_texmfdistdir}/doc/xetex/zhspacing
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,20 +47,3 @@ format under XeTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120314-1
-+ Revision: 787819
-- Update to latest release.
-
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.5-2
-+ Revision: 757833
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.5-1
-+ Revision: 719974
-- texlive-zhspacing
-- texlive-zhspacing
-- texlive-zhspacing
-
