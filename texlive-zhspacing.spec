@@ -1,12 +1,6 @@
-# revision 25644
-# category Package
-# catalog-ctan /macros/xetex/generic/zhspacing
-# catalog-date 2012-03-14 18:58:06 +0100
-# catalog-license lppl
-# catalog-version 2012/03/14
 Name:		texlive-zhspacing
-Version:	20120314
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	Spacing for mixed CJK-English documents in XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/zhspacing
@@ -35,8 +29,10 @@ format under XeTeX.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/xetex/zhspacing
-%doc %{_texmfdistdir}/doc/xetex/zhspacing
+%{_texmfdistdir}/tex/generic/zhspacing
+%{_texmfdistdir}/tex/context/third/zhspacing
+%{_texmfdistdir}/tex/xelatex/zhspacing
+%doc %{_texmfdistdir}/doc/generic/zhspacing
 
 #-----------------------------------------------------------------------
 %prep
