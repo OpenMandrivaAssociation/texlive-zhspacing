@@ -1,5 +1,5 @@
 Name:		texlive-zhspacing
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Spacing for mixed CJK-English documents in XeTeX
 Group:		Publishing
