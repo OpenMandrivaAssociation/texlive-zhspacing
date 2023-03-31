@@ -1,6 +1,6 @@
 Name:		texlive-zhspacing
 Version:	41145
-Release:	1
+Release:	2
 Summary:	Spacing for mixed CJK-English documents in XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/zhspacing
