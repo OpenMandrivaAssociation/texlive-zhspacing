@@ -3,7 +3,7 @@ Version:	41145
 Release:	2
 Summary:	Spacing for mixed CJK-English documents in XeTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/zhspacing
+URL:		https://www.ctan.org/tex-archive/macros/xetex/generic/zhspacing
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/zhspacing.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/zhspacing.doc.r%{version}.tar.xz
